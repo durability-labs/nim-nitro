@@ -3,7 +3,7 @@ author = "Nim Nitro developers"
 license = "MIT"
 description = "Nitro state channels"
 
-requires "nim >= 2.0.14 < 3.0.0"
+requires "nim >= 2.0.14 & < 3.0.0"
 requires "nimcrypto >= 0.6.0 & < 0.7.0"
 requires "questionable >= 0.10.10 & < 0.11.0"
 requires "upraises >= 0.1.0 & < 0.2.0"
