@@ -2,13 +2,13 @@
   "version": 2,
   "packages": {
     "results": {
-      "version": "0.5.0",
-      "vcsRevision": "57b2392ad69849e3e2d02b74a8a0feee2c3d9570",
+      "version": "0.5.1",
+      "vcsRevision": "df8113dda4c2d74d460a8fa98252b0b771bf1f27",
       "url": "https://github.com/arnetheduck/nim-results",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
-        "sha1": "901e2ed088160fdcb8fdf3b315ce62baedc3f7ba"
+        "sha1": "a9c011f74bc9ed5c91103917b9f382b12e82a9e7"
       }
     },
     "unittest2": {
@@ -35,15 +35,16 @@
       }
     },
     "stint": {
-      "version": "2.0.0",
-      "vcsRevision": "3236fa68394f1e3a06e2bc34218aacdd2d675923",
+      "version": "0.8.1",
+      "vcsRevision": "1a2c661e3f50ff696b0b6692fab0d7bb2abf10cc",
       "url": "https://github.com/status-im/nim-stint",
       "downloadMethod": "git",
       "dependencies": [
-        "stew"
+        "stew",
+        "unittest2"
       ],
       "checksums": {
-        "sha1": "50744885ee1c320675078b46520268bf3c3c5d81"
+        "sha1": "fe3c8b7b0484135294b8fb3dab5b1a030a08bddc"
       }
     },
     "nimcrypto": {
@@ -77,8 +78,8 @@
       }
     },
     "contractabi": {
-      "version": "0.7.0",
-      "vcsRevision": "363f8b4852b05c089b1e35ef3a0a882d51c996bc",
+      "version": "0.7.1",
+      "vcsRevision": "524bda044baecdf1ead4f179bdad2b8706ae3a5a",
       "url": "https://github.com/status-im/nim-contract-abi",
       "downloadMethod": "git",
       "dependencies": [
@@ -89,12 +90,12 @@
         "upraises"
       ],
       "checksums": {
-        "sha1": "be9a6b1dc2dc3057f68a6e69f77eb6b873909b04"
+        "sha1": "c45b2abde354c731ed9cb3bf30a8fe0a444ed027"
       }
     },
     "secp256k1": {
       "version": "0.6.0.3.2",
-      "vcsRevision": "e5f0ed8bc27d477b13c174d9c2768d2b0c41da07",
+      "vcsRevision": "62e16b4dff513f1eea7148a8cbba8a8c547b9546",
       "url": "https://github.com/status-im/nim-secp256k1",
       "downloadMethod": "git",
       "dependencies": [
@@ -102,7 +103,7 @@
         "nimcrypto"
       ],
       "checksums": {
-        "sha1": "6df5d2c8236d715553c9c2c66d568ceaf48c454a"
+        "sha1": "443802551ed2f7ba273df38e06a18164dffa14c9"
       }
     }
   },
