@@ -15,6 +15,6 @@ jobs:
       with:
         version: ${{ matrix.nim }}
     - name: Build
-      run: nimble install -y --maximumtaggedversions=2
+      run: nimble install -y
     - name: Test
       run: nimble test -y
