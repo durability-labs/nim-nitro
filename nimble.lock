@@ -12,13 +12,13 @@
       }
     },
     "unittest2": {
-      "version": "0.2.3",
-      "vcsRevision": "845b6af28b9f68f02d320e03ad18eccccea7ddb9",
+      "version": "0.2.4",
+      "vcsRevision": "8b51e99b4a57fcfb31689230e75595f024543024",
       "url": "https://github.com/status-im/nim-unittest2",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
-        "sha1": "6936b4e4676c9b37537d93f31cb8fc46f4ebaacb"
+        "sha1": "746106a4dfefffce497f1693733f1c1513b5c62c"
       }
     },
     "stew": {
@@ -35,8 +35,8 @@
       }
     },
     "stint": {
-      "version": "0.8.1",
-      "vcsRevision": "1a2c661e3f50ff696b0b6692fab0d7bb2abf10cc",
+      "version": "0.8.2",
+      "vcsRevision": "470b7892561b5179ab20bd389a69217d6213fe58",
       "url": "https://github.com/status-im/nim-stint",
       "downloadMethod": "git",
       "dependencies": [
@@ -44,7 +44,7 @@
         "unittest2"
       ],
       "checksums": {
-        "sha1": "fe3c8b7b0484135294b8fb3dab5b1a030a08bddc"
+        "sha1": "d8f871fd617e7857192d4609fe003b48942a8ae5"
       }
     },
     "nimcrypto": {
@@ -60,7 +60,7 @@
     "questionable": {
       "version": "0.10.15",
       "vcsRevision": "82d90b67bcfb7f2e918b61dace2ff1a4ced60935",
-      "url": "https://github.com/markspanbroek/questionable",
+      "url": "https://github.com/codex-storage/questionable",
       "downloadMethod": "git",
       "dependencies": [],
       "checksums": {
@@ -95,15 +95,16 @@
     },
     "secp256k1": {
       "version": "0.6.0.3.2",
-      "vcsRevision": "62e16b4dff513f1eea7148a8cbba8a8c547b9546",
+      "vcsRevision": "9dd3df62124aae79d564da636bb22627c53c7676",
       "url": "https://github.com/status-im/nim-secp256k1",
       "downloadMethod": "git",
       "dependencies": [
         "stew",
+        "results",
         "nimcrypto"
       ],
       "checksums": {
-        "sha1": "443802551ed2f7ba273df38e06a18164dffa14c9"
+        "sha1": "0cda1744a5d85c872128c50e826b979a6c0f5471"
       }
     }
   },
