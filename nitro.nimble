@@ -5,7 +5,7 @@ description = "Nitro state channels"
 
 requires "nimcrypto >= 0.6.0"
 requires "questionable >= 0.10.10"
-requires "contractabi >= 0.7.1"
+requires "https://github.com/durability-labs/nim-contract-abi >= 0.7.3"
 requires "secp256k1 >= 0.6.0"
 requires "stint >= 0.8.0"
 requires "stew >= 0.2.0"
