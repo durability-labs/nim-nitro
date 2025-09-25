@@ -5,7 +5,7 @@ import ../basics
 import ../keys
 import ./state
 
-push: {.upraises:[].}
+{.push raises:[].}
 
 export basics
 export keys
