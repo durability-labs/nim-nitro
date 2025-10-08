@@ -40,7 +40,7 @@ func verify*(signature: Signature, state: State, signer: EthAddress): bool =
 func `$`*(signature: Signature): string =
   var bytes = signature.toRaw()
   bytes[64] += 27
-  bytes.toHex()
+  byteutils.toHex(bytes)
 
 func parse*(_: type Signature, s: string): ?Signature =
   without var bytes =? array[65, byte].fromHex(s).catch:
